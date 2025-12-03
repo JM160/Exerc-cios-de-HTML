@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #f0f4c3, green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#center{
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    width: 600px;
+    text-align: center;
+}
+
+#header h1 {
+    margin-bottom: 20px;
+}
+
+/* ======== ESTILO DA TABELA ======== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    border-color: black;
+}
+
+/* Cabeçalho */
+thead {
+    background-color: #558b2f;
+    color: white;
+}
+
+thead th {
+    padding: 12px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Linhas e células do corpo */
+tbody td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+/* Linhas zebradas */
+tbody tr:nth-child(even) {
+    background-color: #f1f8e9;
+}
+
+/* Células mescladas */
+.mesclada {
+    background-color: #dcedc8;
+    font-weight: bold;
+    color: #33691e;
+    text-align: center;
+}
+
+/* Rodapé */
+tfoot {
+    background-color: #33691e;
+    color: white;
+    font-weight: bold;
+}
+
+tfoot td {
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+}
