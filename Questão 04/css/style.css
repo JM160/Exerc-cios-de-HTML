@@ -1,0 +1,61 @@
+/* Centralizar toda a página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container principal */
+#center {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    width: 600px;
+    text-align: center; /* Centraliza todo texto interno */
+}
+
+/* Títulos */
+#header h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+/* Ajuste das listas */
+#listas {
+    margin-top: 20px;
+}
+
+ol, ul {
+    text-align: left; /* Para alinhar os itens da lista à esquerda */
+    display: inline-block; /* Para centralizar o bloco inteiro */
+    margin: 0 auto;
+}
+
+/* Tabela */
+table {
+    margin: 0 auto; /* Centraliza a tabela */
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #1976d2;
+    color: white;
+}
+
+td {
+    background-color: #e3f2fd;
+}
