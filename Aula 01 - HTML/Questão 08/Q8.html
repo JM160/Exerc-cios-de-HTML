@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário com Check</title>
+</head>
+<body>
+    <div id="center">
+        <div id="header">
+            <h1>Formulário com check - Alpha <span style="color: green;">Ed-Tech</span></h1>
+        </div>
+
+        <div id="FormCheck">
+            <h1>Diga suas preferências</h1>
+            <h3>Escolha pelo menos 3</h3>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="interesses">Interesses:</label><br>
+                <input type="checkbox" id="tecnologia" name="interesses" value="tecnologia">
+                <label for="tecnologia">Tecnologia</label><br>
+                <input type="checkbox" id="ciencia" name="interesses" value="ciencia">
+                <label for="ciencia">Ciência</label><br>
+                <input type="checkbox" id="arte" name="interesses" value="arte">
+                <label for="arte">Arte</label><br>
+                <input type="checkbox" id="jogos" name="interesses" value="jogos">
+                <label for="jogos">Jogos</label><br>
+                <input type="checkbox" id="desenhos" name="interesses" value="desenhos">
+                <label for="desenhos">Desenhos</label><br>
+                <input type="checkbox" id="musica" name="interesses" value="musica">
+                <label for="musica">Música</label><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

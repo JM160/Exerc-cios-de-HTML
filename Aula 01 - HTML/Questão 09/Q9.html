@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes e IDs</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #f0f4c3, #4caf50);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        #center {
+            background-color: #fff;
+            padding: 30px;
+            width: 650px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        #header h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .classe {
+            color: orange;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #id {
+            color: purple;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+
+        #diferencas h1 {
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        #diferencas p {
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        #diferencas,
+        #Demo {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="center">
+
+        <div id="header">
+            <h1>Classes e IDs - Alpha <span style="color: green;">Ed-Tech</span></h1>
+        </div>
+
+        <div id="diferencas">
+            <h1>Qual a diferença entre classes e IDs no HTML?</h1>
+            <p>
+                <strong>Classes</strong> são reutilizáveis e permitem aplicar o mesmo estilo 
+                a múltiplos elementos. Use o seletor <code>.classe</code> no CSS.
+                <br><br>
+                <strong>IDs</strong> são únicos para cada elemento e devem ser usados uma 
+                única vez por página. Use o seletor <code>#id</code> no CSS.  
+                IDs também têm maior especificidade.
+            </p>
+        </div>
+
+        <div id="Demo">
+            <h1 class="classe">Este texto usa uma classe</h1>
+            <br><br>
+            <h1 id="id">Este texto usa um ID</h1>
+        </div>
+
+    </div>
+
+</body>
+</html>
