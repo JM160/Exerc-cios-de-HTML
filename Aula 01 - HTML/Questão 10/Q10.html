@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Página de culinária</title>
+</head>
+<body>
+    <div id="center">
+        <div id="header">
+            <h1>Receitas Culinárias</h1>
+            <p>Lista de culinárias deliciosas para você experimentar</p>
+        </div>
+
+        <h2>Ingredientes</h2>
+        <ul>
+            <li>Farinha</li>
+            <li>Açúcar</li>
+            <li>Manteiga</li>
+            <li>Ovos</li>
+            <li>Leite</li>
+        </ul>
+
+        <h2>O que é possível fazer com esses Ingredientes</h2>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <td>Receita</td>
+                    <td>Tempo de preparo</td>
+                    <td>Quanto rende</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bolo de Fubá</td>
+                    <td>45 minutos</td>
+                    <td>10 porções</td>
+                </tr>
+                <tr>
+                    <td>Panquecas</td>
+                    <td>20 minutos</td>
+                    <td>4 a 6 porções</td>
+                </tr>
+                <tr>
+                    <td>Bolo fofo</td>
+                    <td>45 minutos</td>
+                    <td>10 porções</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Você tem alguma outra receita?</h2>
+        <h3>Nos envie e colocaremos na lista!</h3>
+        <form action="">
+            <label for="nome">Nome da receita:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Ex: Macarronada" required><br><br>
+
+            <label for="ingredientes">Ingredientes:</label><br>
+            <textarea id="ingredientes" name="ingredientes" rows="4" placeholder="Descreva os ingredientes" required></textarea><br><br>
+
+            <label for="preparo">Tempo de preparo:</label><br>
+            <input type="text" name="preparo" id="preparo" placeholder="Ex: 30 minutos" required><br><br>
+
+            <label for="rendimento">Rendimento:</label><br>
+            <input type="text" name="rendimento" id="rendimento" placeholder="Ex: 6 porções" required><br><br>
+
+            <input type="submit" value="Enviar Receita">
+        </form>
+    </div>
+</body>
+</html>
