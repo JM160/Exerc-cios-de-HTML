@@ -1,13 +1,14 @@
-body {
+body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg, #0000, green);
+    background: linear-gradient(135deg, #f0f4c3, green);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
-#header h1 {
-    margin-bottom: 20px;
+#graficos{
+    background-color: white;
 }

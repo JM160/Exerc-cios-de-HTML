@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#000000,orange);
+}
+main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    min-height: 100vh;
+}
+svg {
+    width: 300px;
+    height: 150px;
+}
+#center{
+    text-align: center;
+    color: white;
+}
+.msg {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}
